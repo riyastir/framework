@@ -101,7 +101,7 @@ abstract class Manager
      * @param  string  $driver
      * @return mixed
      */
-    protected function callCustomCreator($driver)
+    protected function callCustomCreator(array $driver)
     {
         return $this->customCreators[$driver]($this->app);
     }
