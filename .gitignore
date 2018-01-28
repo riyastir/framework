@@ -1,8 +1,7 @@
-/vendor
-composer.phar
-composer.lock
-.DS_Store
-Thumbs.db
-/phpunit.xml
-/.idea
-/.vscode
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
